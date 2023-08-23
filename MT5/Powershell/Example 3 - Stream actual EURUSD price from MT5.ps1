@@ -1,6 +1,6 @@
-# Example 3 - Stream actual EURUSD price from MT4
+# Example 3 - Stream actual EURUSD price from MT5
 #
-# PREREQUISITE: Install MTsocketAPI in your Metatrader 4 using the following link https://www.mtsocketapi.com/doc4/installation.html
+# PREREQUISITE: Install MTsocketAPI in your Metatrader 5 using the following link https://www.mtsocketapi.com/doc5/installation.html
 #
 # WARNING: All these source codes are only examples for testing purposes. 
 # WARNING: We don’t provide any guarantee or responsibility about it. 
