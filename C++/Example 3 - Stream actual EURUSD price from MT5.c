@@ -36,13 +36,13 @@ int main(int argc, char *argv[])
 
     char buffer[256];
 
-    if (argc < 2) {
-       fprintf(stderr,"usage %s hostname port\n", argv[0]);
+    if (argc < 3) {
+       fprintf(stderr,"usage %s hostname cmdPort dataPort\n", argv[0]);
        return 0;
     }
 
-    portno_cmd = 77;
-    portno_data = 78;
+    portno_cmd = atoi(argv[2]);
+    portno_data = atoi(argv[3]);
     sockfd_cmd = socket(AF_INET, SOCK_STREAM, 0);
     sockfd_data = socket(AF_INET, SOCK_STREAM, 0);
 
